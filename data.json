@@ -1,0 +1,86 @@
+{
+  "objectives": [
+    {
+      "id": 1,
+      "title": "Aspectos Éticos y Sustentables",
+      "summary": "El egresado desempeñará actividades profesionales considerando los aspectos éticos, legales, sociales y de desarrollo sustentable.",
+      "details": "Este objetivo busca que el egresado tenga una comprensión profunda de la ética profesional y el desarrollo sustentable, aplicando estos principios en su práctica laboral.",
+      "quiz": {
+        "question": "¿Qué debe considerar el egresado en sus actividades profesionales?",
+        "options": [
+          { "text": "Solo los aspectos técnicos", "isCorrect": false },
+          {
+            "text": "Aspectos éticos, legales y sustentables",
+            "isCorrect": true
+          },
+          { "text": "Solo los aspectos legales", "isCorrect": false }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Conocimientos en Áreas Ingenieriles",
+      "summary": "El egresado se desempeña en su trabajo con una base sólida de conocimientos en las áreas ingenieriles, científicas y tecnológicas a la vanguardia.",
+      "details": "Se espera que el egresado esté al tanto de los últimos avances en ingeniería, ciencia y tecnología, aplicando este conocimiento en su práctica profesional.",
+      "quiz": {
+        "question": "¿Qué base de conocimientos debe tener el egresado?",
+        "options": [
+          { "text": "Una base débil", "isCorrect": false },
+          { "text": "Conocimientos desactualizados", "isCorrect": false },
+          { "text": "Conocimientos sólidos y actualizados", "isCorrect": true }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Comunicación Efectiva",
+      "summary": "El egresado cuenta con la capacidad para comunicarse de manera funcional y efectiva para adaptarse a entornos laborales globales.",
+      "details": "Este objetivo busca desarrollar habilidades de comunicación que permitan al egresado interactuar eficientemente en un entorno laboral diverso y global.",
+      "quiz": {
+        "question": "¿Qué habilidad de comunicación debe tener el egresado?",
+        "options": [
+          { "text": "Capacidad de escuchar", "isCorrect": false },
+          { "text": "Comunicación funcional y efectiva", "isCorrect": true },
+          { "text": "Solo hablar un idioma", "isCorrect": false }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "Trabajo en Equipo Multidisciplinario",
+      "summary": "El egresado participa en equipos de trabajo multidisciplinarios, en proyectos de desarrollo de productos tecnológicos que cubren las necesidades de los diferentes sectores.",
+      "details": "Este objetivo enfatiza la importancia del trabajo en equipo y la colaboración entre disciplinas para el desarrollo de soluciones tecnológicas efectivas.",
+      "quiz": {
+        "question": "¿En qué tipo de proyectos debe participar el egresado?",
+        "options": [
+          { "text": "Proyectos individuales", "isCorrect": false },
+          {
+            "text": "Proyectos de desarrollo de productos tecnológicos",
+            "isCorrect": true
+          },
+          { "text": "Solo en proyectos no técnicos", "isCorrect": false }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "Soluciones de Automatización y Gestión",
+      "summary": "El egresado se encuentra generando soluciones para la automatización y gestión de procesos y apoyo en la toma de decisiones en los diferentes entornos.",
+      "details": "Este objetivo busca que el egresado desarrolle habilidades para crear soluciones que mejoren la eficiencia en los procesos y la toma de decisiones en entornos variados.",
+      "quiz": {
+        "question": "¿Qué tipo de soluciones debe generar el egresado?",
+        "options": [
+          { "text": "Soluciones de entretenimiento", "isCorrect": false },
+          {
+            "text": "Soluciones para la automatización y gestión de procesos",
+            "isCorrect": true
+          },
+          {
+            "text": "Soluciones solo para el ámbito académico",
+            "isCorrect": false
+          }
+        ]
+      }
+    }
+  ]
+}

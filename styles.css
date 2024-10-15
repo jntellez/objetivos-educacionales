@@ -1,0 +1,131 @@
+/* styles.css */
+
+/* Estilos básicos para el cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Título principal */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Sección de contenido */
+#content {
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Estilo para cada objetivo */
+.objective {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: box-shadow 0.3s;
+}
+
+/* Efecto al pasar el mouse */
+.objective:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el encabezado de cada objetivo */
+.objective-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para el título de cada objetivo */
+.objective-title {
+    color: #007bff;
+    margin: 0;
+    font-size: 1.5em;
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+/* Estilo para el botón de detalles */
+.details-button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.details-button:hover {
+    color: #0056b3;
+}
+
+/* Estilo para el resumen del objetivo */
+.objective-summary {
+    color: #555;
+    margin-top: 10px;
+    display: none; /* Oculta el resumen inicialmente */
+}
+
+/* Estilo para el contenido de detalles */
+#content h2 {
+    color: #333;
+}
+
+#content p {
+    color: #555;
+}
+
+/* Estilo para el enlace "Volver a la lista" */
+a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.quiz {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.quiz h3 {
+    margin-bottom: 10px;
+}
+
+.quiz label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.quiz button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quiz button:hover {
+    background-color: #0056b3;
+}
+
+#quiz-result {
+    margin-top: 10px;
+    font-weight: bold;
+}
