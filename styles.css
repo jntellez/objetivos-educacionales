@@ -14,7 +14,9 @@ body {
 /* Título principal */
 h1 {
     color: #333;
+    margin: 20px auto;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 /* Sección de contenido */
