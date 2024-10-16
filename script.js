@@ -20,7 +20,7 @@ async function renderContent() {
             <div class="objective" onclick="toggleSummary(event, ${obj.id})">
                 <div class="objective-header">
                     <h2 class="objective-title">${obj.id}. ${obj.title}</h2>
-                    <button class="details-button" onclick="redirectToDetails(event, ${obj.id})">➡️</button>
+                    <button class="details-button" onclick="redirectToDetails(event, ${obj.id})">></button>
                 </div>
                 <p class="objective-summary" id="summary-${obj.id}" style="display: none;">${obj.summary}</p>
             </div>
